@@ -2,6 +2,20 @@
     width: 300px;
 }
 
-.hero {
-    background-color: gray;
+.bgimage {
+    width: 100%;
+    height: 500px;
+    background-image: url('images/nest.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about {
+    background-color: rgb(211, 211, 211);
+}
+
+.about-text {
+    width: 60%;
 }
