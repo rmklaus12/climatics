@@ -6,18 +6,72 @@
     width: 300px;
 }
 
-.bgimage {
+.hero-container {
+    height: 70vh;
     width: 100%;
-    height: 500px;
-    background-image: url('images/nest.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero {
+    background: url('images/sid-saxena-8Uyu1rnirzU-unsplash.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    transition: transform 2s;
+    opacity: 0.5;
+}
+
+.hero:hover {
+    transform: scale(1.15);
+}
+
+.hero-content {
+    position: absolute;
+    left: 180px;
+}
+
+.hero-info {
+    background-color: #dcecf7;
+}
+
+.hero-text {
+    padding: 40px 50px;
+}
+
+.strong {
+    color: #B57645;
+    font-weight: bold;
+    font-size: large;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: rgb(55, 54, 54);
+}
+
+a.btn {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: 11px 30px;
+    background-color: #636363;
+    background-image: linear-gradient(to bottom, #636363, #000);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a.btn:hover {
+    background-image: linear-gradient(to bottom, #000, #000);
 }
 
 .about {
-    background-color: rgb(211, 211, 211);
+    background-color: #dcecf7;
 }
 
 .about-text {
@@ -27,4 +81,8 @@
 
 .services {
     margin-left: 25px;
+}
+
+footer p {
+    padding: 25px;
 }
