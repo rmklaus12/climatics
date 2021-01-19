@@ -1,3 +1,7 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
 .logo {
     width: 300px;
 }
@@ -17,5 +21,10 @@
 }
 
 .about-text {
+    margin-left: 25px;
     width: 60%;
+}
+
+.services {
+    margin-left: 25px;
 }
