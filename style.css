@@ -13,6 +13,13 @@
     position: relative;
 }
 
+.hero-content {
+    position: absolute;
+    left: 250px;
+    top: 70px;
+    opacity: 1;
+}
+
 .hero {
     background: url('images/sid-saxena-8Uyu1rnirzU-unsplash.jpg') no-repeat center center;
     background-size: cover;
@@ -25,11 +32,6 @@
 
 .hero:hover {
     transform: scale(1.15);
-}
-
-.hero-content {
-    position: absolute;
-    left: 180px;
 }
 
 .hero-info {
@@ -70,9 +72,7 @@ a.btn:hover {
     background-image: linear-gradient(to bottom, #000, #000);
 }
 
-.about {
-    background-color: #dcecf7;
-}
+.about {}
 
 .about-text {
     margin-left: 25px;
@@ -81,6 +81,20 @@ a.btn:hover {
 
 .services {
     margin-left: 25px;
+}
+
+.suppliers {
+    padding: 25px;
+    column-gap: 35px;
+    background-color: #dcecf7;
+}
+
+.suppliers img {
+    height: auto;
+    width: 120px;
+    background-position: center;
+    background-size: cover;
+    margin: 10px 10px 10px 100px;
 }
 
 footer p {
