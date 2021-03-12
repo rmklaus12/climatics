@@ -61,6 +61,10 @@ h1 {
     color: rgb(55, 54, 54);
 }
 
+a {
+    z-index: 999;
+}
+
 a.btn {
     display: inline-block;
     font-family: sans-serif;
